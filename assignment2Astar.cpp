@@ -13,8 +13,7 @@ vector<vector<int>> goalState = {
     {7, 8, 0}};
 
 // Directions: up, down, left, right
-vector<pair<int, int>> directions = {
-    {-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+vector<pair<int, int>> directions = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
 vector<string> directionNames = {"UP", "DOWN", "LEFT", "RIGHT"};
 
 // Misplaced tiles heuristic (Hamming distance)

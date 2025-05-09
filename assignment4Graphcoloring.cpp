@@ -19,7 +19,7 @@ bool colorGraph(int v, const vector<vector<int>> &graph, vector<int> &color, int
     if (v == graph.size())
         return true; // All vertices colored
 
-    for (int c = 1; c <= m; ++c)
+    for (int c = 1; c <= m; c++)
     {
         if (isSafe(v, graph, color, c))
         {

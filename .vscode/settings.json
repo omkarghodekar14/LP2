@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "*.cpp": "cpp",
+    "*.go": "go",
+    "vector": "cpp"
+  }
+}

@@ -11,7 +11,7 @@ int main()
     cout << "Enter no of Edges : ";
     cin >> e;
 
-    unordered_map<int, vector<pair<int, int>>> adj(v);
+    unordered_map<int, vector<pair<int, int>>> adj;
 
     for (int i = 0; i < e; i++)
     {
@@ -31,7 +31,6 @@ int main()
 
     while (!pq.empty())
     {
-
         int u = pq.top().second;
         int w = pq.top().first;
         pq.pop();
